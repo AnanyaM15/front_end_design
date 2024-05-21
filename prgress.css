@@ -1,0 +1,63 @@
+
+
+/* Create a container using CSS properties */
+.containe {
+   
+    left: 50%;
+   justify-content: right;
+    float: right;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+
+/* Apply CSS properties to  ui-widgets class */
+.ui-widgets {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 9rem;
+    margin: 1.5rem;
+    border: 1.2rem solid rgb(236, 127, 238);
+    box-shadow: inset 0 0 7px rgb(255, 226, 255);
+    border-left-color: rgb(255, 226, 255);
+    padding: 10px;
+    border-bottom-color: rgb(255, 226, 255);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/*  Apply css properties to the second 
+    child of ui-widgets class */
+.ui-widgets:nth-child(2) {
+    border-top-color: rgb(214, 103, 204);
+    border: 1.2rem solid rgb(236, 127, 238);
+    border-left-color: rgb(255, 253, 255);
+    border-bottom-color: white;
+}
+
+/*  Apply css properties to ui-widgets class 
+    and ui-values class*/
+.ui-widgets .ui-values {
+    top: 40px;
+   
+    left: 10px;
+    right: 0;
+    font-weight: 200px;
+    font-size: 20px;
+
+}
+
+/*  Apply css properties to ui-widgets 
+    class and ui-labels class*/
+.ui-widgets .ui-labels {
+
+    left: 0;
+    bottom: -16px;
+    text-shadow: 0 0 4px grey;
+    color: black;
+  
+    width: 100%;
+    font-size: 16px;
+}
